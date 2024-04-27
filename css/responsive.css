@@ -1,0 +1,31 @@
+/* Media for mobile View */
+@media only screen and (min-width: 350px) and (max-width: 450px) {
+    .carousel-inner {
+      height: 300px;
+    }
+  
+    .justify-content-end {
+      justify-content: flex-start !important;
+      width: 100%;
+    }
+  
+    .nav-link {
+      font-size: 15px;
+    }
+  
+    .image-text {
+      font-size: 15px;
+    }
+    .gallery__wrapper {
+        width: 100%;
+    display: flex;
+    margin: 0px;
+    flex-wrap: wrap;
+    }
+    .gallery__wrapper .gallery {
+        width: 50%;
+    }
+    .gallery__wrapper .gallery img {
+        padding: 10px;
+    }
+  }
