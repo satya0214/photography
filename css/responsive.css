@@ -26,8 +26,7 @@
         width: 50%;
     }
     .gallery__wrapper .gallery:last-child {
-      display: flex;
-    flex-direction: row;
+   display:none;
     }
     .gallery__wrapper .gallery img {
         padding: 10px;
